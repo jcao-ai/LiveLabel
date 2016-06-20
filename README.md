@@ -7,7 +7,7 @@ UILabel for shimmer and lyric effect
 ## Basic usage 
 Import LiveLabel.swift and LyricLabel.swift into you project first.
 
-![Demo Overview](https://github.com/LitleCarl/LiveLabel/tree/master/out.gif)
+![Demo Overview](https://raw.githubusercontent.com/LitleCarl/LiveLabel/master/out.gif)
 
 ``` swift
   // LyricLabel Usage
