@@ -1,5 +1,5 @@
 # LiveLabel
-Dynamic gradient label and Lyric Label for iOS
+Dynamic gradient label and Lyric Label for iOS（Build with XCode8.0 beta and written in Swift 3.0）
 
 ## Overview
 UILabel for shimmer and lyric effect
