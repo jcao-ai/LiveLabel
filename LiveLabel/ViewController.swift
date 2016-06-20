@@ -27,8 +27,8 @@ class ViewController: UIViewController {
         timer.fire()
         
         // LiveLabel Usage
-        liveLabel.fromColor = UIColor.init(netHex: 0xD38312).cgColor
-        liveLabel.toColor = UIColor.init(netHex: 0xA83279).cgColor
+        liveLabel.fromColor = UIColor.init(netHex: 0x00C9FF).cgColor
+        liveLabel.toColor = UIColor.init(netHex: 0x92FE9D).cgColor
 
         animateSwitch.addTarget(self, action: #selector(controlState), for: UIControlEvents.valueChanged)
     }

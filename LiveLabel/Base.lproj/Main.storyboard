@@ -23,19 +23,33 @@
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I'm a LiveLabel...bla" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qfo-d9-XFU" customClass="LiveLabel" customModule="LiveLabel" customModuleProvider="target">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I'm a LiveLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qfo-d9-XFU" customClass="LiveLabel" customModule="LiveLabel" customModuleProvider="target">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SJa-Lo-eB4"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LiveLabel is with shimmer gradient" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPd-an-39B">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LiveLabel有淡淡发光渐变" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6N-n2-YCA">
+                                <frame key="frameInset" minX="78" minY="431" width="194" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="SJa-Lo-eB4" firstAttribute="leading" secondItem="Qfo-d9-XFU" secondAttribute="trailing" constant="8" id="1M4-R3-1zW"/>
                             <constraint firstItem="bCn-MS-Ze3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="24R-tZ-Pqw"/>
-                            <constraint firstItem="SJa-Lo-eB4" firstAttribute="top" secondItem="bCn-MS-Ze3" secondAttribute="bottom" constant="50.5" id="3Jw-7o-ewZ"/>
                             <constraint firstItem="Qfo-d9-XFU" firstAttribute="centerX" secondItem="bCn-MS-Ze3" secondAttribute="centerX" id="G5X-EZ-BJ9"/>
-                            <constraint firstItem="SJa-Lo-eB4" firstAttribute="centerX" secondItem="bCn-MS-Ze3" secondAttribute="centerX" id="iyR-Dw-r46"/>
+                            <constraint firstItem="MPd-an-39B" firstAttribute="centerX" secondItem="bCn-MS-Ze3" secondAttribute="centerX" id="Mi8-Qh-pdp"/>
+                            <constraint firstItem="MPd-an-39B" firstAttribute="top" secondItem="bCn-MS-Ze3" secondAttribute="bottom" constant="58" id="dwu-ct-PBn"/>
+                            <constraint firstItem="SJa-Lo-eB4" firstAttribute="centerY" secondItem="Qfo-d9-XFU" secondAttribute="centerY" id="fnF-0t-D1h"/>
                             <constraint firstItem="bCn-MS-Ze3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y3Z-Xj-RoM"/>
                             <constraint firstItem="bCn-MS-Ze3" firstAttribute="top" secondItem="Qfo-d9-XFU" secondAttribute="bottom" constant="36.5" id="yNj-eY-Uvk"/>
                         </constraints>
