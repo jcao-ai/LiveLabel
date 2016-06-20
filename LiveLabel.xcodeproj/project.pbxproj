@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		180D81F51D17AB6700B477F7 /* LiveLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D81F41D17AB6700B477F7 /* LiveLabel.swift */; };
-		180D81F71D17E08600B477F7 /* LyricLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D81F61D17E08600B477F7 /* LyricLabel.swift */; };
+		181BB3B61D17F7720013C422 /* LyricLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BB3B51D17F7720013C422 /* LyricLabel.swift */; };
 		18C6E7F81D17A53500635DCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6E7F71D17A53500635DCF /* AppDelegate.swift */; };
 		18C6E7FA1D17A53500635DCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6E7F91D17A53500635DCF /* ViewController.swift */; };
 		18C6E7FD1D17A53500635DCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C6E7FB1D17A53500635DCF /* Main.storyboard */; };
@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		180D81F41D17AB6700B477F7 /* LiveLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LiveLabel.swift; path = LiveLabel/LiveLabel.swift; sourceTree = "<group>"; };
-		180D81F61D17E08600B477F7 /* LyricLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyricLabel.swift; sourceTree = "<group>"; };
+		181BB3B51D17F7720013C422 /* LyricLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LyricLabel.swift; path = LiveLabel/LyricLabel.swift; sourceTree = "<group>"; };
 		18C6E7F41D17A53500635DCF /* LiveLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C6E7F71D17A53500635DCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18C6E7F91D17A53500635DCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,8 +42,8 @@
 		180D81F31D17AB4400B477F7 /* LiveLabel */ = {
 			isa = PBXGroup;
 			children = (
+				181BB3B51D17F7720013C422 /* LyricLabel.swift */,
 				180D81F41D17AB6700B477F7 /* LiveLabel.swift */,
-				180D81F61D17E08600B477F7 /* LyricLabel.swift */,
 			);
 			name = LiveLabel;
 			sourceTree = "<group>";
@@ -160,8 +160,8 @@
 			files = (
 				18C6E7FA1D17A53500635DCF /* ViewController.swift in Sources */,
 				18C6E7F81D17A53500635DCF /* AppDelegate.swift in Sources */,
-				180D81F71D17E08600B477F7 /* LyricLabel.swift in Sources */,
 				180D81F51D17AB6700B477F7 /* LiveLabel.swift in Sources */,
+				181BB3B61D17F7720013C422 /* LyricLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
