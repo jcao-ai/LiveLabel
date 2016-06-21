@@ -32,6 +32,8 @@ Import LiveLabel.swift and LyricLabel.swift into you project first.
   }
 
 ```
+##requirement
+XCode 8.0
 
 ##Installation
 Download or clone this repo and import LiveLable.swift & LyricLable.swift and you are ready to go.
