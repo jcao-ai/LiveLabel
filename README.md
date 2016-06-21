@@ -11,6 +11,7 @@ Import LiveLabel.swift and LyricLabel.swift into you project first.
 
 ``` swift
   // LyricLabel Usage
+  lyricLabel.color = UIColor.blue()
   let timer = Timer.scheduledTimer(timeInterval: 1.0/40.0, target: self, selector: #selector(update), userInfo: nil, repeats: true);
   timer.fire()
   
