@@ -118,6 +118,8 @@
 				TargetAttributes = {
 					18C6E7F31D17A53500635DCF = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = S6EBGVAJG2;
+						DevelopmentTeamName = "Cao Jiaxin";
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -281,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LiveLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hehe.LiveLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -293,6 +296,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LiveLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hehe.LiveLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
