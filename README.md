@@ -18,7 +18,7 @@ Import LiveLabel.swift and LyricLabel.swift into you project first.
   // LiveLabel Usage 
   liveLabel.fromColor = UIColor.init(netHex: 0x00C9FF).cgColor // Here is an entension init method for UIColor from LiveLabel.swift
   liveLabel.toColor = UIColor.init(netHex: 0x92FE9D).cgColor // Here is an entension init method for UIColor from LiveLabel.swift
-  liveLabel.setAnimationEnabled(sender.isOn)
+  liveLabel.setAnimationEnabled(true)
   ...
     
   /**
