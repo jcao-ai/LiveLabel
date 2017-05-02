@@ -46,7 +46,10 @@ class LyricLabel: UILabel {
     override func draw(_ rect: CGRect) {
         super.draw(rect)
         
-        var size = self.frame.size
+        let myString: NSString = self.text! as NSString
+        var size: CGSize = myString.size(attributes: [NSFontAttributeName: UIFont.boldSystemFont(ofSize: self.font.pointSize)])
+        size.height = rect.height;
+//        var size = rect.size;
         
          // Draw solid color filled image
         size.width = max(1, size.width * (CGFloat(progress) * 0.01))
